@@ -8,6 +8,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Library from "./pages/Library";
+import Callback from "./pages/Callback";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/search" element={<Search />} />
             <Route path="/library" element={<Library />} />
           </Route>
+          <Route path="/callback" element={<Callback />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
