@@ -1,6 +1,5 @@
-
 import { featuredPlaylists, recentlyPlayed, categories } from "@/data/mockData";
-import { Clock } from "lucide-react";
+import { Clock, Play } from "lucide-react";
 
 const Home = () => {
   return (

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { 
   Play, Pause, SkipBack, SkipForward, Volume2, Maximize2, 
-  Repeat, Shuffle, ListMusic
+  Repeat, Shuffle, ListMusic, Heart
 } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
 
